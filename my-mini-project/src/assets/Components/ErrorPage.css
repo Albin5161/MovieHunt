@@ -1,0 +1,31 @@
+.ErrorPage{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: #0d0d0d;
+    min-height: 100vh;
+}
+
+.ErrorPage h1{
+    font-size: 6 rem;
+    color: #ff4444;
+}
+
+.ErrorPage p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.ErrorPage button{
+    padding:10px 20px;
+    border:none;
+    background: #ff4444;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ErrorPage button:hover{
+    background: #e60000;
+}

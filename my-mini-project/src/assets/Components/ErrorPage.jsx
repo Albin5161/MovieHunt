@@ -1,6 +1,18 @@
+import {Link} from "react-router-dom"
+import "./ErrorPage.css"
+
+
+
 const ErrorPage=() =>{
     return(
-        <div>Error 404</div>
+        <div className="ErrorPage">
+            <h1>404</h1>
+            <p>The page youo're looking for doesn't exist.</p>
+            <Link to = "/">
+            <button>Go Home</button>
+            </Link>
+
+        </div>
     )
     
 }

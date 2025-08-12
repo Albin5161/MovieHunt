@@ -58,15 +58,16 @@
 }
 
 .seach-bar {
-    width: 300px;
-    padding: 10px 15px;
+    width: 700px;
+    padding: 20px 30px;
     border: none;
-    border-radius: 25px;
+    border-radius: 30px;
     margin-bottom: 20px;
     font-size: 1 rem;
     outline: none;
     transition: 0.3s;
     box-shadow: 0 0 0px rgba(255, 0, 0, 0.5);
+    font-size: larger;
 }
 
 .search-bar:focus{
