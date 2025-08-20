@@ -1,0 +1,77 @@
+.add-page {
+  min-height: 100vh;
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-card {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+  padding: 20px;
+}
+
+.add-card h2 {
+  color: #ff4444;
+  text-align: center;
+  margin: 4px 0 14px;
+  text-shadow: 0 0 15px rgba(255,0,0,0.6);
+}
+
+.add-form {
+  display: grid;
+  gap: 12px;
+}
+
+.add-form input[type="text"],
+.add-form input[type="number"] {
+  width: 95%;
+  padding: 12px 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  outline: none;
+  transition: box-shadow .2s, border-color .2s;
+}
+.add-form input:focus {
+  border-color: #ff4444;
+  box-shadow: 0 0 10px rgba(255,0,0,0.5);
+}
+
+
+.file-row {
+  display: grid;
+  gap: 8px;
+}
+.preview {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.submit-btn {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4444;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s, box-shadow .2s, transform .2s;
+}
+.submit-btn:hover {
+  background: #e60000;
+  box-shadow: 0 8px 26px rgba(255,0,0,0.5);
+  transform: translateY(-1px);
+}

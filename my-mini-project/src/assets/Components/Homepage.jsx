@@ -16,7 +16,7 @@ const HomePage = ({ movies }) => {
     return (
 
         <div className="homepage-container">
-
+            <div className="top-row">
             <input
                 type="text"
                 placeholder="Seach movies here..."
@@ -25,8 +25,9 @@ const HomePage = ({ movies }) => {
                 onChange={(e) => setSearchMovie(e.target.value)}
             />
             <Link to="/add-movie">
-                <button>+ Add Movie</button>
+                <button className="add-btn">Add Movie</button>
             </Link>
+            </div>
             <h1 className="heading">MovieHunt</h1>
 
             <div className="movie-container">
