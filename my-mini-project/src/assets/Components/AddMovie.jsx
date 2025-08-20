@@ -58,8 +58,14 @@ const AddMovie = ({ setMovies }) => {
                         onChange={(e) => setRating(e.target.value)}
                     />
 
+                    {/* <div className="file-row">
+                        <input type="file" accept="image/*" onChange={handlePoster} />
+                        {poster && <img src={poster} alt="preview" className="preview" />}
+                    </div> */}
+
                     <div className="file-row">
                         <input type="file" accept="image/*" onChange={handlePoster} />
+                        {!poster && <span className="file-placeholder">No file selected</span>}
                         {poster && <img src={poster} alt="preview" className="preview" />}
                     </div>
 
